@@ -78,7 +78,7 @@ body {
 
   transform: translateY(-50%);
 
-  animation: slide-back .2s;
+  animation: slide-back 0.2s;
 }
 
 #switch button:hover {
@@ -98,7 +98,7 @@ body {
   border-radius: 9999px;
 }
 
-.light #switch button  {
+.light #switch button {
   animation: slide-in 0.4s forwards;
 }
 /* links */
@@ -183,17 +183,13 @@ footer {
   to {
     left: 50%;
   }
-    
-  
 }
 @keyframes slide-back {
-  from{
+  from {
     left: 50%;
   }
 
-  to{
+  to {
     left: 0;
   }
-
-  
 }
